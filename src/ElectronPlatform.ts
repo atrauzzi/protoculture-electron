@@ -1,18 +1,7 @@
+import "electron";
 import * as _ from "lodash";
 import { Platform, LogLevel, Environment, Bundle } from "protoculture";
 
-
-// tslint:disable-next-line:no-namespace
-declare global {
-
-    namespace NodeJS {
-
-        interface ProcessVersions {
-
-            electron: any;
-        }
-    }
-}
 
 export class ElectronPlatform implements Platform {
 
