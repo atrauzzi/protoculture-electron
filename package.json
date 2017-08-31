@@ -1,0 +1,36 @@
+{
+  "name": "protoculture-electron",
+  "author": "Alexander Trauzzi <atrauzzi@gmail.com>",
+  "version": "0.0.0-development",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "build": "tsc",
+    "demo": "ts-node --no-cache demo/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atrauzzi/protoculture-electron.git"
+  },
+  "keywords": [
+    "typescript",
+    "dependency-injection",
+    "inversify",
+    "electron",
+    "protoculture"
+  ],
+  "bugs": {
+    "url": "https://github.com/atrauzzi/protoculture-electron/issues"
+  },
+  "homepage": "https://github.com/atrauzzi/protoculture-electron#readme",
+  "devDependencies": {
+    "semantic-release": "^6.3.2"
+  },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "electron": "^1.7.5",
+    "protoculture": "^2.0.76"
+  }
+}
