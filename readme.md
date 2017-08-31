@@ -7,4 +7,3 @@
 
 ## About
 protoculture-electron is an integration between the [protoculture application framework](https://github.com/atrauzzi/protoculture) and electron.
-
