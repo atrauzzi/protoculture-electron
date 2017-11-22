@@ -31,6 +31,6 @@
   "types": "./lib/index.d.ts",
   "dependencies": {
     "electron": "^1.7.5",
-    "protoculture": "^2.0.76"
+    "protoculture": "^2.0.85"
   }
 }
