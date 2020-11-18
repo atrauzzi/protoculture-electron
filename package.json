@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/atrauzzi/protoculture-electron#readme",
   "devDependencies": {
-    "semantic-release": "^7.0.2"
+    "semantic-release": "^17.2.3"
   },
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
