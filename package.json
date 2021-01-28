@@ -30,7 +30,7 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "dependencies": {
-    "electron": "^1.7.5",
+    "electron": "^9.4.0",
     "protoculture": "^2.0.85"
   }
 }
